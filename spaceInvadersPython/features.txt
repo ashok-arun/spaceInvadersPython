@@ -1,0 +1,5 @@
+We added a 4th command to be typed in when running the programming.
+PLAYER_LIFE. It is an int from 1 to 10 and is the number of lives the player gets.
+The new variable is defined in consts.py and the player gets to select it. 
+
+We also added a Sound feature. I\We created a new attribute (_sounds) in Waves.py that stores a list of strings with the name of valid .wav files that we used for sounds. We created a new method called playSound(self, source) that plays the sound given a source which is a string with a valid sound file. The aliens play the pew2.wav and the ship bolts play pew1.wav. When the aliens are hit it plays the pop1.wav sound and when the ship is destroyed it plays blast1.wav
